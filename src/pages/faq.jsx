@@ -11,7 +11,7 @@ export default function Faq() {
               <h2 className="mb-4 md:w-full text-3xl font-bold text-dark dark:text-white sm:text-[40px]/[48px]">
                 Frequently Asked Questions
               </h2>
-              <p className="text-base text-justify max-w-[520px] text-body-color dark:text-dark-6">
+              <p className="text-base m-auto text-justify max-w-[520px] text-body-color dark:text-dark-6">
                 Welcome to our FAQs section! Here, you will find answers to
                 commonly asked questions about our website and services. If you
                 canot find the information you are looking for, feel free to

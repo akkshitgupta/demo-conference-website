@@ -1,5 +1,6 @@
 import Button from "@/components/Button";
 import FormInput from "../components/FormInput";
+import Link from "next/link";
 
 export default function Form() {
   return (
@@ -43,6 +44,14 @@ export default function Form() {
               <Button type="submit">Cancel</Button>
             </div>
           </form>
+          <aside className="bg-yellow-100 w-2/3 p-2  mt-12 text-black">
+            Responses are being stored in a Google spreadsheet{" "}
+            <Link
+              href="https://docs.google.com/spreadsheets/d/1RT45LwIyGbEpuFllBgdtsnVfEAfOWXutYtx4PVJypkw/edit?usp=sharing"
+              className="text-blue-800">
+              Check here
+            </Link>
+          </aside>
         </div>
       </div>
     </div>
