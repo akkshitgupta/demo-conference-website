@@ -41,14 +41,16 @@ export default function Form() {
               <Button type="submit" primary>
                 Complete the registration
               </Button>
-              <Button type="submit">Cancel</Button>
+              <Button type="reset">Cancel</Button>
             </div>
           </form>
           <aside className="bg-yellow-100 w-2/3 p-2  mt-12 text-black">
             Responses are being stored in a Google spreadsheet{" "}
             <Link
               href="https://docs.google.com/spreadsheets/d/1RT45LwIyGbEpuFllBgdtsnVfEAfOWXutYtx4PVJypkw/edit?usp=sharing"
-              className="text-blue-800">
+              className="text-blue-800"
+              target="_blank"
+              rel="noopener noreferrer">
               Check here
             </Link>
           </aside>

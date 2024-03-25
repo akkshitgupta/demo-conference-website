@@ -3,9 +3,9 @@ import Link from "next/link";
 export default function Navbar() {
   return (
     <nav>
-      <ul className="flex flex-col gap-y-10">
+      <ul className="flex flex-col md:flex-row gap-y-7">
         <li>
-          <Link href="/form" className="border border-cyan-200 p-4">
+          <Link href="/form" className="border w-full border-cyan-200 p-4">
             Register as Speaker
           </Link>
         </li>
