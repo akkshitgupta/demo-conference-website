@@ -5,7 +5,7 @@ import Link from "next/link";
 export default function Form() {
   return (
     <div className="mt-8">
-      <h1 className="text-white text-center text-3xl">
+      <h1 className="dark:text-gray-300 text-center text-3xl">
         Register as speaker for the Conference
       </h1>
       <div className="min-h-screen flex flex-col md:flex-row gap-x-2 items-center justify-around">
@@ -22,7 +22,7 @@ export default function Form() {
           <form
             action={process.env.FORM_LINK}
             method="post"
-            className="w-5/6 h-4/6 border border-gray-300 rounded-md px-4 py-6">
+            className="w-5/6 h-4/6 border border-slate-700 dark:border-gray-300 rounded-md px-4 py-6">
             {/* speaker name */}
             <FormInput
               name={process.env.FULL_NAME}

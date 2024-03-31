@@ -1,0 +1,46 @@
+sponsorship_prospectus:
+  AsyncAPI:
+    description: >
+      AsyncAPI is an open-source initiative that is dedicated to building tools and standards for the
+      future of event-driven architecture and APIs. We provide specifications, documentation, and
+      tooling to help developers design, build, and maintain event-driven systems.
+    importance_in_tech: >
+      Event-driven architecture is increasingly becoming a fundamental paradigm in modern software
+      development. AsyncAPI plays a crucial role in this space by providing standardized tools and
+      specifications, which facilitate interoperability, scalability, and reliability in event-driven
+      systems. By sponsoring AsyncAPI, your organization aligns itself with the forefront of
+      technological innovation and demonstrates a commitment to shaping the future of software
+      development.
+
+  sponsor_categories:
+    - category: Platinum Sponsorship
+      perks:
+        - Priority placement of logo on event website and marketing materials
+        - Exclusive speaking opportunity during the main conference
+        - Dedicated sponsor spotlight in event newsletter and social media promotion
+        - Complimentary exhibition booth space in prime location
+        - Access to VIP networking events and private meetings with keynote speakers
+        - Recognition as a Platinum Sponsor in opening and closing remarks
+        - Opportunity to contribute a sponsored blog post on AsyncAPI's official channels
+
+    - category: Gold Sponsorship
+      perks:
+        - Prominent placement of logo on event website and marketing materials
+        - Speaking opportunity during a dedicated session
+        - Inclusion in event newsletter and social media promotion
+        - Complimentary exhibition booth space
+        - Access to VIP networking events
+        - Recognition as a Gold Sponsor in opening and closing remarks
+
+    - category: Silver Sponsorship
+      perks:
+        - Logo placement on event website and marketing materials
+        - Exhibition booth space
+        - Access to networking events
+        - Recognition as a Silver Sponsor in opening and closing remarks
+
+    - category: Bronze Sponsorship
+      perks:
+        - Logo placement on event website
+        - Exhibition booth space
+        - Recognition as a Bronze Sponsor in opening and closing remarks

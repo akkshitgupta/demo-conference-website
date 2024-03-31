@@ -10,13 +10,13 @@ export default function AccordionItem({ header, text }) {
     setActive(!active);
   };
   return (
-    <div className="mb-8 w-full rounded-lg bg-gray-700 p-4 shadow-[0px_20px_95px_0px_rgba(201,203,204,0.30)] dark:bg-dark-2 dark:shadow-[0px_20px_95px_0px_rgba(0,0,0,0.30)] sm:p-8 lg:px-6 xl:px-8">
+    <div className="w-full rounded-lg dark:bg-gray-700 p-4 dark:bg-dark-2 dark:shadow-[0px_20px_95px_0px_rgba(0,0,0,0.30)] sm:p-2 lg:px-6 xl:px-8">
       <button
         className={`faq-btn flex w-full text-left`}
         onClick={() => handleToggle()}>
         <div className="mr-5 flex h-10 w-full max-w-[40px] items-center justify-center rounded-lg bg-primary/5 text-primary dark:bg-white/35">
           <svg
-            className={`fill-slate-50 stroke-slate-50 duration-200 ease-in-out ${
+            className={`dark:fill-slate-50 stroke-slate-800 dark:stroke-slate-50 duration-200 ease-in-out ${
               active ? "rotate-180" : ""
             }`}
             width="17"
@@ -32,7 +32,7 @@ export default function AccordionItem({ header, text }) {
         </div>
 
         <div className="w-full">
-          <h4 className="mt-1 text-lg font-semibold text-dark dark:text-white">
+          <h4 className="mt-1 text-lg font-semibold text-slate-800 dark:text-white">
             {header}
           </h4>
         </div>
